@@ -1,3 +1,8 @@
+.app-container{
+    padding: 10px;
+    width: 100vw;
+    margin: 0px;
+}
 .logo-icon{
     height: 30px;
     width: 30px;
@@ -157,12 +162,12 @@
     flex-wrap: wrap;
 }
 .header-container{      
-     width: 100vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 80px;
 }
 .home-btn{
     border: none;
