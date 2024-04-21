@@ -1,0 +1,120 @@
+.footer-section-container{
+    background-color: black;
+    color: white;
+    font-family: Arial Narrow;
+    padding: 40px;
+   
+}
+.sign-up-content{
+    font-size: 12px;
+}
+
+.email-input{
+    height: 25px;
+    width: 200px;
+    margin-right: 10px;
+}
+.subscribe-btn{
+    height: 28px;
+    width: 100px;
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.currency-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 0px;
+    line-height: 5px;
+}
+.us-flag-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    color:red;
+}
+.trans-content{
+    font-size: 10px;
+}
+.footer-upper-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.contact-section{
+    height: 250px;
+}    
+
+.subscribe-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+}
+.footer-bottom-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.company-routes,.link-routes{
+    font-size: 12px;
+}
+.platform-logo{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.diamond-icon{
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (min-width:768px){
+    .mobile-view-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width:468px){
+    .footer-upper-section-container{
+        display: none;
+    }
+    .footer-bottom-section-container{
+        display: none;
+    }
+    .footer-section-container{
+       padding: 10px;      
+    }
+    .subsc-cont{
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+   
+    .contact-container{
+        border-bottom: 1px solid white;
+    }
+    .down-face{
+        height: 20px;
+        width: 20px;
+        color: white;
+    }
+    .company-routes,.quick-links,.social-media-platforms{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid white;
+    }
+}

@@ -1,0 +1,40 @@
+.product-item-container{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+.product-image{
+    height: 150px;
+    width: 150px;
+}
+.product-title{
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.error-text{
+    width: 150px;
+    font-size: 10px;
+    color: darkgray;
+}
+.error-text-container{
+    display: flex;
+    align-items: center;
+}
+.sign-in-text{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:468px){
+    .product-image{
+        height: 100px;
+        width: 100px;
+    }
+    .product-title{
+        width: 100px;
+        font-size: 14px;
+    }
+    .error-text{
+        width: 100px;
+    }
+}
