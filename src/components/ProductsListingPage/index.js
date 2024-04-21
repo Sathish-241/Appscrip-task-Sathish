@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import './index.css';
-import { AiOutlineDribbble } from "react-icons/ai";
+import { BsCommand } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { PiHeart } from "react-icons/pi";
 import { TbShoppingBagMinus } from "react-icons/tb";
@@ -10,6 +9,7 @@ import { HiChevronLeft } from "react-icons/hi2";
 import { PiList } from "react-icons/pi";
 import ProductItem from '../ProductItem';
 import Footer from '../Footer'
+import './index.css';
 
 
 class ProductsListingPage extends Component{
@@ -36,7 +36,8 @@ class ProductsListingPage extends Component{
             <div className='header-container'>
                 <div className='logo-container'>
                 <PiList className='list-icon' />
-                <AiOutlineDribbble className='logo-icon' />
+                <BsCommand className='logo-icon' />
+                
                 
                 </div>
                 <h1 className='header-title'>LOGO</h1>
