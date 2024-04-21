@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { BsCommand } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { PiHeart } from "react-icons/pi";
 import { TbShoppingBagMinus } from "react-icons/tb";
@@ -36,7 +35,7 @@ class ProductsListingPage extends Component{
             <div className='header-container'>
                 <div className='logo-container'>
                 <PiList className='list-icon' />
-                <BsCommand className='logo-icon' />
+                <img src="" alt='logo' className='logo-icon' />
                 
                 
                 </div>
